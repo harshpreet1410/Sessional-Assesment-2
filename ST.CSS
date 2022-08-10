@@ -20,8 +20,9 @@ nav{
 }
 .fnt{
     font-family: Arial, Helvetica, sans-serif;
-    font-size:30px;
+    font-size:40px;
     text-align: center;
+    font-weight: bold;
 }
 label.logo{
     color:azure;
@@ -30,10 +31,7 @@ label.logo{
     padding:0 100px;
     font-weight:bold;
 }
-ul li:nth-child(1){
-    
-    width:40vw;
-}
+
 nav ul{
     float:right;
     margin-right:20px;
@@ -51,11 +49,17 @@ nav ul li a{
     border-radius:2.9px;
     text-transform:uppercase;
 } 
-li button{
-    height: 3vh;
-    width:4vw;
+section button{
+    height: 15vh;
+    width:20vw;
     text-align: center;
     border-radius: 5px;
+}
+section button:hover{
+    cursor:pointer;
+    background:#ff0035;
+    transition:0.5s;
+
 }
 
 a.hoover,a:hover{
@@ -85,16 +89,7 @@ a.hoover,a:hover{
         font-size:15px;
     }
 }
-li button{
-    margin-left:50px;
-    background-color: azure;
-    width:200px;
-    height: 60px;
-    border-radius: 15px;
-    margin-top:8px; 
-    padding-bottom: 0% ;
-    cursor:pointer;
-}
+
 li button:hover{
     background-color: #ff0035;
     transition:0.5s;
@@ -118,6 +113,18 @@ li button:hover{
     
         width:100vw;
 
+    }
+    .fnt{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    section button{
+        height: 10vh;
+        width:35vw;
+        text-align: center;
+        border-radius: 5px;
     }
     
     li button{
@@ -151,8 +158,8 @@ section{
     justify-content: space-evenly;
 }
 section img{
-    width:300px;
-    height:300px;
+    width:250px;
+    height:250px;
     margin: 15px;
     
    
