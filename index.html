@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ST.CSS">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>ST2</title>
 </head>
+
 <body>
     <nav>
         <input type="checkbox" id="check">
@@ -18,40 +22,55 @@
         <label class="logo">PGA</label>
         <ul>
             <li>
-                </li>
-            <li><a id="homebtn" class="hoover" href="#">Home</a></li>    
+            </li>
+            <li><a id="homebtn" class="hoover" href="#">Home</a></li>
             <li><a id="blogbtn" href="#">My Blog</a></li>
             <li><a id="forumbtn" href="#">Form</a></li>
         </ul>
     </nav>
     <section id="images">
-        <button type="submit" id="getPhot" class="fnt"  onclick="getPhotos()">Get Images</button>
+        <button type="submit" id="getPhot" class="fnt" onclick="getPhotos()">Get Images</button>
     </section>
     <section id="blog">
+        </div>
         <div id="blogbody">
             <div id="blogtitle">
-            My Blog
+                <p>My Blog</p>
             </div>
             <div id="blogcontent">
-            my Blogtitle
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.
+                </p>
             </div>
-    </div>
+            <div id="blogfooter">
+                <p><i>Written By</i> - <b>Harshpreet Singh</b></p>
+            </div>
+        </div>
     </section>
     <section id="form">
         <div>
-           <label>Blog Title :</label> <input id="tiform"type="text" name="" id="#formtext">
+            <label>Blog Title :</label> <input id="tiform" type="text" name="" id="#formtext">
         </div>
         <div>
-            <label>Blog Content :</label> <textarea id="conform" type="text" name="" id="#formtext" width="50%" row="50%" placeholder="Write your blog content here"></textarea>
+            <label>Blog Content :</label> <textarea id="conform" type="text" name="" id="#formtext" width="50%"
+                row="50%" placeholder="Write your blog content here"></textarea>
         </div>
         <div>
             <button id="blogsubmit">Create Blog</button>
         </div>
     </section>
     <footer>
-
+        <p>Author: Harshpreet Singh<br>
+            <a href="mailto:harshpreet130945@gmail.com">harshpreet1410.be20@chitkara.edu.in</a><br>
+            <i class="fa-solid fa-copyright"></i><span>All Rights Reserved</span><br>  
+                      
+        </p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./ST.js"></script>
 </body>
+
 </html>
